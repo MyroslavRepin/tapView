@@ -24,7 +24,7 @@ if config.config_file_name is not None:
 # target_metadata = mymodel.Base.metadata
 
 from backend.core.base import Base
-from backend.models.nfc_tags import NFC_tags
+from backend.models.nfc_tags import NFCTag
 
 target_metadata = Base.metadata
 
